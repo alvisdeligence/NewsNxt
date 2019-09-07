@@ -80,9 +80,10 @@ class _SearchPageState extends State<SearchPage> {
                           child: Text(
                             'Nothing to Show!',
                             style: TextStyle(
-                                fontSize: 30,
-                                fontWeight: FontWeight.bold,
-                                fontStyle: FontStyle.italic),
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                              // fontStyle: FontStyle.italic,
+                            ),
                           ),
                         )
                       : Column(

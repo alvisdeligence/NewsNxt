@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
         accentColor: Colors.amber,
-        fontFamily: 'PlayfairDisplay',
+        // fontFamily: 'PlayfairDisplay',
       ),
       home: MyHomePage(),
     );
@@ -87,9 +87,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   'TOP NEWS',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                      fontSize: 25,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white),
+                    fontSize: 25,
+                    fontFamily: 'PlayfairDisplay',
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
                 ),
               ),
             ),
